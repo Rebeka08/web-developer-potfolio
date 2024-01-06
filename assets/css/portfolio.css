@@ -8,7 +8,47 @@ body{
     font-family: 'Open Sans', sans-serif;
 
 }
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background: #FD6E0A;
+     color: #fff;
+     font-size: 20px;
+     font-weight: 700;
+     padding: 15px 35px;
+}
 /*****nav related styles*****/
 nav{
+
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 20px;
+
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+       
+}
+nav li{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+.btn-primary{
+   
+
 }
