@@ -109,19 +109,27 @@ main{
     max-width: 1140px;
     margin: 0px auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about section style */
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 30px;
+    margin: 130px 0px;
     text-align: justify;
+}.about *{
+    margin-bottom: 24px;
+
 }
+
 .about-info-container{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 35px;
+  
+   
 }
 .about-info{
 color: #757575;
@@ -140,16 +148,92 @@ line-height: 30px;
 #what-i-do-description{
     padding: 30px 118px;
 }
+
 /* skill related style */
 .skill-container{
     display: flex;
-  margin: 30px 0px;
+    gap: 34px;
+    margin: 30px 0px;
+    justify-content: space-between;
+    
 }
 .skill-container .skill{
-    padding:  30px;
-    gap: 24px;
+    padding:  30px;   
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+.skill-container .skill *{
+    margin-bottom: 10px;
 
 }
 .skills-description{
+color: var #757575;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+text-align: justify;
    
 }
+/* resume section style */
+.resume-container{
+    display: flex;
+    gap: 70px;
+    margin-top: 60px;
+   
+}
+
+.resume-column-title{
+color:  #474747;
+font-size: 30px;
+font-weight: 700;
+margin: 30px 0px;
+
+
+}
+.resume-items *{
+    margin-bottom: 10px;
+}
+.resume-item-title{
+    color:  #474747;    
+    font-size: 25px;
+    font-weight: 700;
+    }
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+.resume-container hr{
+    margin: 30px 0px;
+    background: #D1D1D1;
+}
+
+.resume-item-description{
+color:  #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer style */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin: 100px 0px;
+}
+
+
+
+
+
+
+
