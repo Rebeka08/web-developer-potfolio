@@ -19,6 +19,13 @@ body{
      padding: 15px 35px;
      border: 0;
      border-radius: 5px;
+     border: 1px solid #FD6E0A;
+     transition: 0.6s;
+}
+.btn-primary:hover{
+    background: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
 }
 .section-title{
     color:  #181818;
@@ -39,7 +46,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 200px;
+    margin: 30px 200px  ;
 
 }
 .nav-title{
@@ -62,26 +69,34 @@ nav li{
 }
 nav a{
     text-decoration: none;
+    color: #181818;
+}
+nav a:hover{
+    color: #FD6E0A;
 }
 /* *********header related styles******** */
 .header{
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right, top left;
-    
+    background-position: bottom right, top left;  
+    padding: 40px 0px; 
+    height: 685px;
+      
 }
 .banner{
   padding: 30px 30px 0px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 .banner-content{
     max-width: 500px;
 }
 .banner .profile-pic{
-    width: 500px;
+   width: 500px;
+
 }
 .banner-greeting{
     color:  #474747;
@@ -104,6 +119,24 @@ nav a{
     line-height: 30px;
     margin: 0px 0px 10px 0px;
 }
+.bnt-group{
+    margin-top: 30px;
+   
+    }
+    .btn-contact{
+        margin-left: 20px;
+        background: transparent;
+        border: 1px solid #FD6E0A;
+        color: #FD6E0A;
+        transition: .6s;
+    }
+    .btn-contact:hover{
+        background: #FD6E0A;
+        border: 1px solid #FD6E0A;
+        color: #fff;
+
+
+    }
 /* main section style */
 main{
     max-width: 1140px;
@@ -114,7 +147,7 @@ main section{
 }
 /* about section style */
 .about{
-    padding: 130px;
+    padding: 150px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
@@ -161,12 +194,12 @@ line-height: 30px;
     padding:  30px;   
     border-radius: 5px;
     background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border: 0;
+    box-shadow: 1px 6px 10px 5px rgba(0, 0, 0, 0.06);
     
 }
 .skill-container .skill *{
     margin-bottom: 10px;
-
 }
 .skills-description{
 color: var #757575;
@@ -226,10 +259,54 @@ line-height: 28px; /* 175% */
 /* footer style */
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 230px;
     margin: 100px 0px;
+   
 }
+.footer-column{
+    width: 50%;
+      
+}
+.footer-column *{
+    margin-bottom: 20px;
+}
+.social-link{
+margin: 40px 0px;
+gap: 40px;
+}
+.social-link a{
+    font-size: 45px;
+    margin-top: 50px;
+    text-decoration: none;
+    margin: 30px 30px 30px 0px;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    border-radius: 5px;
+    background:  #FFF;
+    width: 100%;
+    border: 0;
+    outline: 0px;
+
+}
+
+
+
+.contact input[type="text"]:focus, .contact input[type="email"]:focus, textarea:focus{
+    outline: 2px solid rgb(0, 255, 234)
+ };
+
+
+
 
 
 
