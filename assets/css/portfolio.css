@@ -54,6 +54,7 @@ nav{
     font-size: 45px;
     line-height: 55px;
     font-weight: 800;
+    margin-left: -50px;
 }
 nav > ul{
     display: flex;
